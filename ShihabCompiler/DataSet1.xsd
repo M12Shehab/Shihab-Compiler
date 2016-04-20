@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CSharp" msprop:Generator_TableClassName="CSharpDataTable" msprop:Generator_TableVarName="tableCSharp" msprop:Generator_TablePropName="CSharp" msprop:Generator_RowDeletingName="CSharpRowDeleting" msprop:Generator_RowChangingName="CSharpRowChanging" msprop:Generator_RowEvHandlerName="CSharpRowChangeEventHandler" msprop:Generator_RowDeletedName="CSharpRowDeleted" msprop:Generator_UserTableName="CSharp" msprop:Generator_RowChangedName="CSharpRowChanged" msprop:Generator_RowEvArgName="CSharpRowChangeEvent" msprop:Generator_RowClassName="CSharpRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cyclomatic" msprop:Generator_ColumnVarNameInTable="columnCyclomatic" msprop:Generator_ColumnPropNameInRow="Cyclomatic" msprop:Generator_ColumnPropNameInTable="CyclomaticColumn" msprop:Generator_UserColumnName="Cyclomatic" type="xs:int" minOccurs="0" />
+              <xs:element name="HalstedVolume" msprop:Generator_ColumnVarNameInTable="columnHalstedVolume" msprop:Generator_ColumnPropNameInRow="HalstedVolume" msprop:Generator_ColumnPropNameInTable="HalstedVolumeColumn" msprop:Generator_UserColumnName="HalstedVolume" type="xs:int" minOccurs="0" />
+              <xs:element name="NewTech" msprop:Generator_ColumnVarNameInTable="columnNewTech" msprop:Generator_ColumnPropNameInRow="NewTech" msprop:Generator_ColumnPropNameInTable="NewTechColumn" msprop:Generator_UserColumnName="NewTech" type="xs:int" minOccurs="0" />
+              <xs:element name="ProgramName" msprop:Generator_ColumnVarNameInTable="columnProgramName" msprop:Generator_ColumnPropNameInRow="ProgramName" msprop:Generator_ColumnPropNameInTable="ProgramNameColumn" msprop:Generator_UserColumnName="ProgramName" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC" msprop:Generator_ColumnVarNameInTable="columnLOC" msprop:Generator_ColumnPropNameInRow="LOC" msprop:Generator_ColumnPropNameInTable="LOCColumn" msprop:Generator_UserColumnName="LOC" type="xs:int" minOccurs="0" />
+              <xs:element name="ShaoWang" msprop:Generator_ColumnVarNameInTable="columnShaoWang" msprop:Generator_ColumnPropNameInRow="ShaoWang" msprop:Generator_ColumnPropNameInTable="ShaoWangColumn" msprop:Generator_UserColumnName="ShaoWang" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CPlus" msprop:Generator_TableClassName="CPlusDataTable" msprop:Generator_TableVarName="tableCPlus" msprop:Generator_TablePropName="CPlus" msprop:Generator_RowDeletingName="CPlusRowDeleting" msprop:Generator_RowChangingName="CPlusRowChanging" msprop:Generator_RowEvHandlerName="CPlusRowChangeEventHandler" msprop:Generator_RowDeletedName="CPlusRowDeleted" msprop:Generator_UserTableName="CPlus" msprop:Generator_RowChangedName="CPlusRowChanged" msprop:Generator_RowEvArgName="CPlusRowChangeEvent" msprop:Generator_RowClassName="CPlusRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cyclomatic" msprop:Generator_ColumnVarNameInTable="columnCyclomatic" msprop:Generator_ColumnPropNameInRow="Cyclomatic" msprop:Generator_ColumnPropNameInTable="CyclomaticColumn" msprop:Generator_UserColumnName="Cyclomatic" type="xs:int" minOccurs="0" />
+              <xs:element name="HalstedVolume" msprop:Generator_ColumnVarNameInTable="columnHalstedVolume" msprop:Generator_ColumnPropNameInRow="HalstedVolume" msprop:Generator_ColumnPropNameInTable="HalstedVolumeColumn" msprop:Generator_UserColumnName="HalstedVolume" type="xs:int" minOccurs="0" />
+              <xs:element name="NewTech" msprop:Generator_ColumnVarNameInTable="columnNewTech" msprop:Generator_ColumnPropNameInRow="NewTech" msprop:Generator_ColumnPropNameInTable="NewTechColumn" msprop:Generator_UserColumnName="NewTech" type="xs:int" minOccurs="0" />
+              <xs:element name="ProgramName" msprop:Generator_ColumnVarNameInTable="columnProgramName" msprop:Generator_ColumnPropNameInRow="ProgramName" msprop:Generator_ColumnPropNameInTable="ProgramNameColumn" msprop:Generator_UserColumnName="ProgramName" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC" msprop:Generator_ColumnVarNameInTable="columnLOC" msprop:Generator_ColumnPropNameInRow="LOC" msprop:Generator_ColumnPropNameInTable="LOCColumn" msprop:Generator_UserColumnName="LOC" type="xs:int" minOccurs="0" />
+              <xs:element name="ShaoWang" msprop:Generator_ColumnVarNameInTable="columnShaoWang" msprop:Generator_ColumnPropNameInRow="ShaoWang" msprop:Generator_ColumnPropNameInTable="ShaoWangColumn" msprop:Generator_UserColumnName="ShaoWang" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Java" msprop:Generator_TableClassName="JavaDataTable" msprop:Generator_TableVarName="tableJava" msprop:Generator_TablePropName="Java" msprop:Generator_RowDeletingName="JavaRowDeleting" msprop:Generator_RowChangingName="JavaRowChanging" msprop:Generator_RowEvHandlerName="JavaRowChangeEventHandler" msprop:Generator_RowDeletedName="JavaRowDeleted" msprop:Generator_UserTableName="Java" msprop:Generator_RowChangedName="JavaRowChanged" msprop:Generator_RowEvArgName="JavaRowChangeEvent" msprop:Generator_RowClassName="JavaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cyclomatic" msprop:Generator_ColumnVarNameInTable="columnCyclomatic" msprop:Generator_ColumnPropNameInRow="Cyclomatic" msprop:Generator_ColumnPropNameInTable="CyclomaticColumn" msprop:Generator_UserColumnName="Cyclomatic" type="xs:int" minOccurs="0" />
+              <xs:element name="HalstedVolume" msprop:Generator_ColumnVarNameInTable="columnHalstedVolume" msprop:Generator_ColumnPropNameInRow="HalstedVolume" msprop:Generator_ColumnPropNameInTable="HalstedVolumeColumn" msprop:Generator_UserColumnName="HalstedVolume" type="xs:int" minOccurs="0" />
+              <xs:element name="NewTech" msprop:Generator_ColumnVarNameInTable="columnNewTech" msprop:Generator_ColumnPropNameInRow="NewTech" msprop:Generator_ColumnPropNameInTable="NewTechColumn" msprop:Generator_UserColumnName="NewTech" type="xs:int" minOccurs="0" />
+              <xs:element name="ProgramName" msprop:Generator_ColumnVarNameInTable="columnProgramName" msprop:Generator_ColumnPropNameInRow="ProgramName" msprop:Generator_ColumnPropNameInTable="ProgramNameColumn" msprop:Generator_UserColumnName="ProgramName" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC" msprop:Generator_ColumnVarNameInTable="columnLOC" msprop:Generator_ColumnPropNameInRow="LOC" msprop:Generator_ColumnPropNameInTable="LOCColumn" msprop:Generator_UserColumnName="LOC" type="xs:int" minOccurs="0" />
+              <xs:element name="ShaoWang" msprop:Generator_ColumnVarNameInTable="columnShaoWang" msprop:Generator_ColumnPropNameInRow="ShaoWang" msprop:Generator_ColumnPropNameInTable="ShaoWangColumn" msprop:Generator_UserColumnName="ShaoWang" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaticalCPlus" msprop:Generator_TableClassName="StaticalCPlusDataTable" msprop:Generator_TableVarName="tableStaticalCPlus" msprop:Generator_RowChangedName="StaticalCPlusRowChanged" msprop:Generator_TablePropName="StaticalCPlus" msprop:Generator_RowDeletingName="StaticalCPlusRowDeleting" msprop:Generator_RowChangingName="StaticalCPlusRowChanging" msprop:Generator_RowEvHandlerName="StaticalCPlusRowChangeEventHandler" msprop:Generator_RowDeletedName="StaticalCPlusRowDeleted" msprop:Generator_RowClassName="StaticalCPlusRow" msprop:Generator_UserTableName="StaticalCPlus" msprop:Generator_RowEvArgName="StaticalCPlusRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaxLine" msprop:Generator_ColumnVarNameInTable="columnMaxLine" msprop:Generator_ColumnPropNameInRow="MaxLine" msprop:Generator_ColumnPropNameInTable="MaxLineColumn" msprop:Generator_UserColumnName="MaxLine" type="xs:int" minOccurs="0" />
+              <xs:element name="MinLine" msprop:Generator_ColumnVarNameInTable="columnMinLine" msprop:Generator_ColumnPropNameInRow="MinLine" msprop:Generator_ColumnPropNameInTable="MinLineColumn" msprop:Generator_UserColumnName="MinLine" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaticalJava" msprop:Generator_TableClassName="StaticalJavaDataTable" msprop:Generator_TableVarName="tableStaticalJava" msprop:Generator_TablePropName="StaticalJava" msprop:Generator_RowDeletingName="StaticalJavaRowDeleting" msprop:Generator_RowChangingName="StaticalJavaRowChanging" msprop:Generator_RowEvHandlerName="StaticalJavaRowChangeEventHandler" msprop:Generator_RowDeletedName="StaticalJavaRowDeleted" msprop:Generator_UserTableName="StaticalJava" msprop:Generator_RowChangedName="StaticalJavaRowChanged" msprop:Generator_RowEvArgName="StaticalJavaRowChangeEvent" msprop:Generator_RowClassName="StaticalJavaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaxLine" msprop:Generator_ColumnVarNameInTable="columnMaxLine" msprop:Generator_ColumnPropNameInRow="MaxLine" msprop:Generator_ColumnPropNameInTable="MaxLineColumn" msprop:Generator_UserColumnName="MaxLine" type="xs:int" minOccurs="0" />
+              <xs:element name="MinLine" msprop:Generator_ColumnVarNameInTable="columnMinLine" msprop:Generator_ColumnPropNameInRow="MinLine" msprop:Generator_ColumnPropNameInTable="MinLineColumn" msprop:Generator_UserColumnName="MinLine" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StaticalCsharp" msprop:Generator_TableClassName="StaticalCsharpDataTable" msprop:Generator_TableVarName="tableStaticalCsharp" msprop:Generator_TablePropName="StaticalCsharp" msprop:Generator_RowDeletingName="StaticalCsharpRowDeleting" msprop:Generator_RowChangingName="StaticalCsharpRowChanging" msprop:Generator_RowEvHandlerName="StaticalCsharpRowChangeEventHandler" msprop:Generator_RowDeletedName="StaticalCsharpRowDeleted" msprop:Generator_UserTableName="StaticalCsharp" msprop:Generator_RowChangedName="StaticalCsharpRowChanged" msprop:Generator_RowEvArgName="StaticalCsharpRowChangeEvent" msprop:Generator_RowClassName="StaticalCsharpRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaxLine" msprop:Generator_ColumnVarNameInTable="columnMaxLine" msprop:Generator_ColumnPropNameInRow="MaxLine" msprop:Generator_ColumnPropNameInTable="MaxLineColumn" msprop:Generator_UserColumnName="MaxLine" type="xs:int" minOccurs="0" />
+              <xs:element name="MinLine" msprop:Generator_ColumnVarNameInTable="columnMinLine" msprop:Generator_ColumnPropNameInRow="MinLine" msprop:Generator_ColumnPropNameInTable="MinLineColumn" msprop:Generator_UserColumnName="MinLine" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Statical" msprop:Generator_TableClassName="StaticalDataTable" msprop:Generator_TableVarName="tableStatical" msprop:Generator_TablePropName="Statical" msprop:Generator_RowDeletingName="StaticalRowDeleting" msprop:Generator_RowChangingName="StaticalRowChanging" msprop:Generator_RowEvHandlerName="StaticalRowChangeEventHandler" msprop:Generator_RowDeletedName="StaticalRowDeleted" msprop:Generator_UserTableName="Statical" msprop:Generator_RowChangedName="StaticalRowChanged" msprop:Generator_RowEvArgName="StaticalRowChangeEvent" msprop:Generator_RowClassName="StaticalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaxLine" msprop:Generator_ColumnVarNameInTable="columnMaxLine" msprop:Generator_ColumnPropNameInRow="MaxLine" msprop:Generator_ColumnPropNameInTable="MaxLineColumn" msprop:Generator_UserColumnName="MaxLine" type="xs:int" minOccurs="0" />
+              <xs:element name="MinLine" msprop:Generator_ColumnVarNameInTable="columnMinLine" msprop:Generator_ColumnPropNameInRow="MinLine" msprop:Generator_ColumnPropNameInTable="MinLineColumn" msprop:Generator_UserColumnName="MinLine" type="xs:int" minOccurs="0" />
+              <xs:element name="ProgramLanguage" msprop:Generator_ColumnVarNameInTable="columnProgramLanguage" msprop:Generator_ColumnPropNameInRow="ProgramLanguage" msprop:Generator_ColumnPropNameInTable="ProgramLanguageColumn" msprop:Generator_UserColumnName="ProgramLanguage" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
